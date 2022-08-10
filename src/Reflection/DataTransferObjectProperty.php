@@ -23,7 +23,7 @@ class DataTransferObjectProperty
 
     private DataTransferObject $dataTransferObject;
 
-    private ReflectionProperty $reflectionProperty;
+    public ReflectionProperty $reflectionProperty;
 
     private ?Caster $caster;
 
